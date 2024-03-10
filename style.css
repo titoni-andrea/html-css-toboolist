@@ -6,19 +6,14 @@
 
 body {
     font-family: sans-serif;
-    background-color: #222;
-}
-
-.container {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: rgb(244, 249, 253);
 }
 
 header {
     background-color: white;
     height: 75px;
     padding: 10px 0px 10px 20px;
+    margin-bottom: 40px;
 }
 
 img {
@@ -29,4 +24,113 @@ h1 {
     margin-left: 20px;
     font-size: 50px;
     display: inline-block;
+}
+
+.container {
+    width: 70%;
+    height: 800px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+div {
+    padding: 18px 0px 10px 50px;
+}
+
+.button1 {
+    background-color: rgb(65, 182, 237);
+    color: white;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button2 {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid lightgray;
+    background-color: white;
+    color: lightgray;
+}
+
+hr {
+    border: solid 1px rgb(234, 234, 234);
+    margin-bottom: 20px;
+}
+
+.titolo-sezione {
+    color: rgb(75, 75, 75);
+    font-size: 20px;
+    padding-bottom: 13px;
+}
+
+.contenuto-sezione {
+    color: rgb(103, 103, 103);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.editorial-box {
+    background-color: rgb(65, 182, 237);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 23px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.q1goals-box {
+    background-color: rgb(165, 110, 233);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 23px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.recruiting-box {
+    background-color: rgb(72, 220, 231);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 23px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.mobile-box {
+    background-color: rgb(234, 179, 30);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 23px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.website-box {
+    background-color: rgb(224, 96, 185);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 23px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.sales-box {
+    background-color: rgb(159, 227, 71);
+    color: white;
+    border: none;
+    width: 55px;
+    height: 23px;
+    border-radius: 12px;
+    font-size: 10px;
 }
